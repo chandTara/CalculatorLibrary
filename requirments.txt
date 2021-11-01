@@ -1,0 +1,10 @@
+py~=1.9.0
+pip~=20.2.3
+attrs~=20.2.0
+toml~=0.10.1
+pytest~=6.0.2
+pluggy~=0.13.1
+iniconfig~=1.0.1
+pyparsing~=2.4.7
+six~=1.15.0
+setuptools~=50.3.0
