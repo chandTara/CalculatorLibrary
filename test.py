@@ -1,27 +1,27 @@
 
 class Employee:
-   empCount = 0
+    emp_count = 0
 
-   def __init__(self, name, salary):
-       self.name = name
-       self.salary = salary
-       Employee.empCount += 1
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+        Employee.emp_count += 1
 
-   def displayCount(self):
-       print ("Total Employee %d" % self.empCount)
+    def display_count(self):
+        print ("Total Employee %d" % self.empCount)
 
-   def displayEmployee(self):
-       print ("Name : ", self.name,  ", Salary: ", self.salary)
+    def display_employee(self):
+        print ("Name : ", self.name,  ", Salary: ", self.salary)
 
-   def printEmloyeeCount(self):
-       print("Number of employees")
-       return self.empCount
+    def print_emloyee_count(self):
+        print("Number of employees")
+        return self.emp_count
 
 
 if __name__ == "__main__" :
     employee1 = Employee("Test1", 1000)
     employee2 = Employee("Test2", 2000)
-    employee2.empCount = 3
-    print(employee1.displayCount(), employee1.displayEmployee())
-    print(employee2.displayCount(), employee2.displayEmployee())
-    print(Employee.empCount)
+    employee2.emp_count = 3
+    print(employee1.display_count(), employee1.display_employee())
+    print(employee2.display_count(), employee2.display_employee())
+    print(Employee.emp_count)
