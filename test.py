@@ -1,4 +1,4 @@
-
+"""Test module."""
 class Employee:
     emp_count = 0
 
@@ -8,12 +8,15 @@ class Employee:
         Employee.emp_count += 1
 
     def display_count(self):
+        """Display total count of employees"""
         print ("Total Employee %d" % self.emp_count)
 
     def display_employee(self):
+        """Display employees"""
         print ("Name : ", self.name,  ", Salary: ", self.salary)
 
-    def print_emloyee_count(self):
+    def print_emloye e_count(self):
+        """Display employees count"""
         print("Number of employees")
         return self.emp_count
 
