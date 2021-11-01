@@ -3,17 +3,18 @@ class Employee:
    empCount = 0
 
    def __init__(self, name, salary):
-      self.name = name
-      self.salary = salary
-      Employee.empCount += 1
+       self.name = name
+       self.salary = salary
+       Employee.empCount += 1
 
    def displayCount(self):
-     print ("Total Employee %d" % self.empCount)
+       print ("Total Employee %d" % self.empCount)
 
    def displayEmployee(self):
-      print ("Name : ", self.name,  ", Salary: ", self.salary)
+       print ("Name : ", self.name,  ", Salary: ", self.salary)
 
    def printEmloyeeCount(self):
+       print("Number of employees")
        return self.empCount
 
 
